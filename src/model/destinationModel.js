@@ -17,6 +17,9 @@ const destination = sequelize.define('destination', {
     },
     price:{
         type: DataTypes.INTEGER,
+    },
+    img_src:{
+        type: DataTypes.STRING,
     }
 }, {
     tableName:'destination'
