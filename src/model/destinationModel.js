@@ -20,6 +20,9 @@ const destination = sequelize.define('destination', {
     },
     img_src:{
         type: DataTypes.STRING,
+    },
+    stars:{
+        type: DataTypes.STRING,
     }
 }, {
     tableName:'destination'
